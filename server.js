@@ -14,9 +14,7 @@ app.use('/', express.static(
 
 
 app.listen(process.env.PORT || 3000, ()=>{
-  if (err) {
-    return console.log(err)
-  }
+  
 
   console.log('Tudo funcionando')
 })
