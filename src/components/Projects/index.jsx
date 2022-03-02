@@ -5,6 +5,14 @@ export default function Projects (){
     const projects =[
         {
             id:1,
+            title:'Player Music',
+            localImage:'../../img/projects/playermusic.png',
+            github:'',
+            url:'',
+            language:'React'
+        },
+        {
+            id:2,
             title:'Agenda Digital',
             localImage:'../../img/projects/zage.png',
             github:'',
@@ -12,7 +20,7 @@ export default function Projects (){
             language:'PHP'
         },
         {
-            id:2,
+            id:3,
             title:'Calculadora IMC',
             localImage:'../../img/projects/imc.png',
             github:'',
