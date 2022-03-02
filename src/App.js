@@ -13,7 +13,6 @@ export default function App() {
 
     return (
         <div className='div-global'>
-            <Menu />
             <PersonalInformations />
 
             <section className="section-buttons-cv-about">
