@@ -13,14 +13,22 @@ export default function Projects (){
         },
         {
             id:2,
-            title:'Agenda Digital',
-            localImage:'../../img/projects/zage.png',
+            title:'ShortLink',
+            localImage:'../../img/projects/playermusic.png',
             github:'',
             url:'',
-            language:'PHP'
+            language:'React'
         },
         {
             id:3,
+            title:'Link Shortener',
+            localImage:'../../img/projects/link.png',
+            github:'',
+            url:'',
+            language:'React'
+        },
+        {
+            id:4,
             title:'Calculadora IMC',
             localImage:'../../img/projects/imc.png',
             github:'',
