@@ -89,6 +89,29 @@
 }
 
 
+
+
+.progress .progress-bar-next{
+    display:block;
+    height:100%;
+    width:45%;
+    background: #5ccfee;
+     border-radius:4px;
+     box-shadow: 1px 0px 4px 1px rgba(20, 42, 48, 0.36);
+-webkit-box-shadow: 1px 0px 4px 1px rgba(20, 42, 48, 0.36);
+-moz-box-shadow: 1px 0px 4px 1px rgba(20, 42, 48, 0.36);
+}
+
+.li-next{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
 .progress .progress-bar-html{
     display:block;
     height:100%;

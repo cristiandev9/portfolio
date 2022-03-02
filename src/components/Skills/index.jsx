@@ -23,11 +23,19 @@ export default function Skills(){
                                 </div>
                             </li>
 
-                            <li className="li-react"><div>React</div><div>45%</div></li>
+                            <li className="li-react"><div>React</div><div>60%</div></li>
                             
                             <li>
                                 <div className="progress">
                                     <span className="progress-bar-react"></span>
+                                </div>
+                            </li>
+
+                            <li className="li-next"><div>Next JS</div><div>45%</div></li>
+                            
+                            <li>
+                                <div className="progress">
+                                    <span className="progress-bar-next"></span>
                                 </div>
                             </li>
 
