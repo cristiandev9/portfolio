@@ -16,6 +16,9 @@
     "renderer": "^0.1.5",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "react-scripts start",
