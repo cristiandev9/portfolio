@@ -1,0 +1,34 @@
+.section-projects{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.div-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width: 970px;
+    margin:15px 15px 30px 15px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.01);
+    padding:15px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.div-button-view-more{
+    margin-top: 1rem;
+    flex-basis: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:.8rem;
+    
+}

@@ -1,0 +1,204 @@
+
+.section-languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:3rem;
+}
+
+
+.containers{
+    width:100%;
+    display:flex;
+    max-width: 1030px;
+  
+}
+
+
+.container{
+    width: 100%;
+    background-color: rgba(255,255,255,0.01);
+    margin:1rem;
+    border-radius: 4px;
+    color:#fff;
+    padding:15px;
+    
+}
+
+
+
+
+.container > ul > li:nth-child(1){
+    margin-bottom:1rem;
+    font-size:15px;
+    text-align: center;
+}
+
+
+.container > ul > li{
+    font-size:13px;
+}
+
+.span-title-2{
+    font-size:14px;
+}
+
+.progress{
+    width: 100%;
+    height: 5px;
+    background:#e1e4e8;
+    margin-bottom:.4rem;
+    border-radius: 4px;
+}
+
+.progress .progress-bar-js{
+    display:block;
+    height:100%;
+    width:75%;
+    background-color: #ffd33d;
+     border-radius:4px;
+     box-shadow: 1px 0px 4px 1px rgba(230, 211, 0, 0.363);
+     -webkit-box-shadow: 1px 0px 4px 1px rgba(230,211,0,0.36);
+     -moz-box-shadow: 1px 0px 4px 1px rgba(230,211,0,0.36);
+}
+
+.li-js{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.progress .progress-bar-react{
+    display:block;
+    height:100%;
+    width:45%;
+    background: #5ccfee;
+     border-radius:4px;
+     box-shadow: 1px 0px 4px 1px rgba(92,207,238,0.36);
+-webkit-box-shadow: 1px 0px 4px 1px rgba(92,207,238,0.36);
+-moz-box-shadow: 1px 0px 4px 1px rgba(92,207,238,0.36);
+}
+
+.li-react{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progress .progress-bar-html{
+    display:block;
+    height:100%;
+    width:100%;
+    background: #E56027;
+     border-radius:4px;
+     box-shadow: 1px 0px 4px 1px rgba(235, 96, 37, 0.623);
+-webkit-box-shadow: 1px 0px 4px 1px rgba(206, 106, 63, 0.795);
+-moz-box-shadow: 1px 0px 4px 1px rgba(229,96,39,0.52);
+}
+
+.li-html{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progress .progress-bar-css{
+    display:block;
+    height:100%;
+    width:100%;
+    background: #006BC3;
+     border-radius:4px;
+     box-shadow: 1px 0px 6px 1px rgba(0,107,195,0.52);
+-webkit-box-shadow: 1px 0px 6px 1px rgba(0,107,195,0.52);
+-moz-box-shadow: 1px 0px 6px 1px rgba(0,107,195,0.52);
+}
+
+.li-css{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progress .progress-bar-php{
+    display:block;
+    height:100%;
+    width:85%;
+    background: #51608C;
+     border-radius:4px;
+     box-shadow: 1px 0px 6px 1px rgba(81,96,140,0.52);
+-webkit-box-shadow: 1px 0px 6px 1px rgba(81,96,140,0.52);
+-moz-box-shadow: 1px 0px 6px 1px rgba(81,96,140,0.52);
+}
+
+.li-php{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progress .progress-bar-mysql{
+    display:block;
+    height:100%;
+    width:85%;
+    background: #1E4C68;
+     border-radius:4px;
+     box-shadow: 1px 0px 6px 1px rgba(30,76,104,0.52);
+-webkit-box-shadow: 1px 0px 6px 1px rgba(30,76,104,0.52);
+-moz-box-shadow: 1px 0px 6px 1px rgba(30,76,104,0.52);
+}
+
+.li-mysql{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progress .progress-bar-docker{
+    display:block;
+    height:100%;
+    width:30%;
+    background: #0069AD;
+     border-radius:4px;
+     box-shadow: 1px 0px 6px 1px rgba(0,105,173,0.52);
+-webkit-box-shadow: 1px 0px 6px 1px rgba(0,105,173,0.52);
+-moz-box-shadow: 1px 0px 6px 1px rgba(0,105,173,0.52);
+}
+
+
+.li-docker{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.progress .progress-bar-git{
+    display:block;
+    height:100%;
+    width:40%;
+    background: #E44D30;
+     border-radius:4px;
+     box-shadow: 1px 0px 6px 1px rgba(228,77,48,0.52);
+-webkit-box-shadow: 1px 0px 6px 1px rgba(228,77,48,0.52);
+-moz-box-shadow: 1px 0px 6px 1px rgba(228,77,48,0.52);
+}
+
+.li-git{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more-two-years{
+    margin-bottom: 1rem;
+    color:rgba(255,255,255,.7)
+}
+

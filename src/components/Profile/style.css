@@ -1,0 +1,35 @@
+
+.section-img-profile{
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+.img-profile{
+    width: 18rem;
+    height: auto;
+    clip-path: circle();
+    
+    
+    
+}
+
+.div-img{
+    /* background:linear-gradient(to right,rgb(96, 192, 248),#2b7fc4); */
+    background:linear-gradient(to right,rgba(50, 189, 207, 0.623),#14728f9a);
+    padding-top:2rem;
+    clip-path: circle();
+  
+    
+    
+}
+
+.scroll-sec{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
