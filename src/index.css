@@ -1,13 +1,141 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding:0;
+    margin:0;
+    font-family: poppins;
+    transition-delay: 3s ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar{
+    width: 0px;
 }
+
+a, button {
+    border:transparent;
+    text-decoration: none;
+    outline: none;
+
+}
+
+
+a{
+    color:#fff !important;
+}
+
+input{
+    outline: none;
+}
+
+body{
+    /* background: hsl(219, 48%, 8%); */
+    background: linear-gradient(45deg, hsl(202deg 81% 14%), hsl(219, 48%, 8%));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+html, body{
+    width: 100%;
+}
+
+
+button{
+    border-radius:4px;
+    padding:.4rem 2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+ul, li{
+    list-style: none;
+}
+
+section{
+    margin-bottom:2rem;
+    color:#fff;
+
+}
+
+.section-buttons-cv-about button, a{
+    width:10rem;
+}
+
+.section-buttons-cv-about  a{
+   text-align: center;
+   padding:.33rem;
+   border-radius: 4px;
+   font-size:13px;
+}
+
+.section-buttons-cv-about a{
+    background:transparent;
+    color:#fff;
+    border: 1px solid #fff;
+}
+
+.section-buttons-cv-about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:2rem;
+}
+
+
+.btn-download-cv{
+    margin:1rem;
+}
+
+.btn-about-me{
+    margin:1rem;
+    background-color: #fff !important;
+    color:#092032 !important;
+    font-weight: 600;
+}
+
+@media (max-width:1080px) {
+    .div-global{
+        max-width: 95%;
+        margin:0 auto;
+    }
+}
+
+@media (max-width:500px) {
+    .main-personal-inf h1{
+        margin:.5rem;
+        text-align:center;
+    }
+}
+
+
+@media (max-width:600px) {
+    .section-languages>.containers{
+        display: flex;
+        flex-direction: column;
+        margin-top:1rem;
+    }
+    .section-languages>.containers>.container {
+        width: 85%;
+        margin:0 auto;
+        margin-top:1rem !important;
+    }
+
+    .main-personal-inf span{
+        margin-top: 1rem;
+    }
+
+    .section-footer footer{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .div-section-footer{
+        width:95% !important;
+        
+    }
+
+    .div-section-footer:nth-child(2) div:nth-child(1){
+        display:none;
+    }
+
+}
+

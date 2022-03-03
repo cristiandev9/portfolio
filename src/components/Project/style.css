@@ -1,0 +1,30 @@
+.project{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background: rgba(255,255,255,0.03);
+    margin:15px 15px 45px 15px;
+    padding:15px 15px 30px 15px;
+    border-radius: 4px 4px 0px 0px;
+    flex-wrap: wrap;
+    width: 15rem;
+    height: 7rem;
+    position:relative;
+    background-size: cover;
+}
+
+.project > .title-project{
+
+    color:rgb(56, 176, 245);
+    position:absolute; 
+    bottom:-1.9rem;
+    background-color: rgba(0,0,0,.4); 
+    width: 100%;   
+    padding:.3rem 0;
+    font-size: 14px;
+    color:#fff;
+    border-radius: 0px 0px 4px 4px;
+}

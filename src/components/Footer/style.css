@@ -1,0 +1,43 @@
+.section-footer{
+
+    width: 100%;
+    min-height:15rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-footer footer{
+    background:rgba(255,255,255,0.01);
+    width: 100%;
+    min-height:15rem;
+    max-width: 1000px;
+    display:flex;
+    position:relative;
+}
+
+.div-section-footer{
+    display:flex;
+    padding:15px;
+    justify-content: center;
+    width:50%;
+    text-align: center;
+
+}
+
+.div-section-footer div{
+    margin:4rem 1rem 1rem 1rem;
+}
+
+.div-section-footer div:nth-child(1){
+    position:absolute;
+    top:-2rem;
+    margin-bottom:1rem;
+    font-size:15px;
+}
+
+.div-section-footer div:nth-child(2){
+    text-align: justify;
+    font-size:12px;
+}
