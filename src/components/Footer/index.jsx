@@ -15,9 +15,9 @@ export default function Footer(){
               
                 <div className='div-section-footer'>
                     <div>Minhas redes sociais</div>
-                    <div><GoMarkGithub size={25} /></div>
-                    <div><TiSocialLinkedin size={25} /></div>
-                    <div><SiInstagram size={22} /></div>
+                    <div><a href='https://www.github.com/cristiandev9'><GoMarkGithub size={25} /></a></div>
+                    <div><a href='https://www.linkedin.com/in/cristian-andrisen-6497301a0/'><TiSocialLinkedin size={25} /></a></div>
+                    <div><a href='https://www.instagram.com/cristian.andrisen/'><SiInstagram size={22} /></a></div>
                 </div>
             </footer>
         </section>

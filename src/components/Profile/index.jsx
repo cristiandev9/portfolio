@@ -9,9 +9,9 @@ export default function Profile(){
         <section className='section-img-profile'>
                 <div className="div-icons">
                     <ul>
-                        <li><GoMarkGithub size={25} /></li>
-                        <li><TiSocialLinkedin size={25} /></li>
-                        <li><SiInstagram size={22} /></li>
+                        <li><a href='https://www.github.com/cristiandev9'><GoMarkGithub size={25} /></a></li>
+                        <li><a href='https://www.linkedin.com/in/cristian-andrisen-6497301a0/'><TiSocialLinkedin size={25} /></a></li>
+                        <li><a href='https://www.instagram.com/cristian.andrisen/'><SiInstagram size={22} /></a></li>
                     </ul>
                 </div>
 
