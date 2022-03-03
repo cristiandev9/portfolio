@@ -13,19 +13,19 @@ export default function Projects (){
         },
         {
             id:2,
-            title:'ShortLink',
-            localImage:'../../img/projects/playermusic.png',
+            title:'Link Shortener',
+            localImage:'../../img/projects/link.png',
             github:'',
             url:'',
             language:'React'
         },
         {
             id:3,
-            title:'Link Shortener',
-            localImage:'../../img/projects/link.png',
+            title:'Agenda Digital',
+            localImage:'../../img/projects/zage.png',
             github:'',
             url:'',
-            language:'React'
+            language:'PHP'
         },
         {
             id:4,
