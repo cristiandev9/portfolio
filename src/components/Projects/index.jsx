@@ -43,7 +43,7 @@ export default function Projects (){
         <>
         <section className='section-projects'>
             
-            <h1>Projetos</h1>
+            <h1>Principais Projetos</h1>
             <div className='div-projects'>
             {projects.map((e)=>
              
